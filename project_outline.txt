@@ -1,0 +1,29 @@
+################################ End to End ML Project ##########################
+
+Topics to Cover
+
+0. Set up project with github.
+1. Data Ingestion
+2. Data Transformation
+3. Model Trainer
+4. Model Evaluation
+5. Model Deployment
+
+
+CI/CD Pipelines - Github Actions
+Deployment - AWS
+
+
+
+######## Steps in each Tutorial    #########
+
+
+#####  Tutorial 1 - Github and Code Setup    ######
+
+Step 1 - Create a repository in github
+Step 2 - Go to vs code in your project directory, open terminal and create a virtual environment
+Step 3 - Sync the github repository with vs code. So that we can commit all our code to github easily. 
+Step 4 - Create a gitignore file in github. We use this so that the files/libraries that are not committed on github can be removed and can free up space and increase computational power. Use git pull to pull the files from github repository to vs code.
+Step 5 - Create setup.py file. This file will be responsible for creating our machine learning application as a package. And we can use this package later for any other project.
+Step 6 - Create a folder called src, and create a file in this src folder called __init__.py
+Step 7 - Now install all the dependencies by running pip install -r requirements.txt
