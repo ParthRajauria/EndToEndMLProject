@@ -27,3 +27,12 @@ Step 4 - Create a gitignore file in github. We use this so that the files/librar
 Step 5 - Create setup.py file. This file will be responsible for creating our machine learning application as a package. And we can use this package later for any other project.
 Step 6 - Create a folder called src, and create a file in this src folder called __init__.py
 Step 7 - Now install all the dependencies by running pip install -r requirements.txt
+
+
+##### Tutorial 2 - Project Structure, Logging, and Exception Handling.
+
+Step 1 - create a components folder under src folder. In that, create a __init__.py file. Components will contain all the modules, like data ingestion. EDA, etc. 
+Step 2 - create a pipeline directory. In that have training and testing pipeline. 
+Step 3 - Create 3 more files, utils.py (for writing generic functions that are used everywhere), exception.py (for exception handling), and logger.py (for data logging)
+Step 4 - Write code on exception.py file. 
+
