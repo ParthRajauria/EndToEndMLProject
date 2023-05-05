@@ -20,10 +20,11 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__ == "__main__":
+# To test this file
+# if __name__ == "__main__":
 
-    try:
-        a = 1/0
-    except Exception as e:
-        logging.info("Dividing by zero")
-        raise CustomException(e,sys) 
+#     try:
+#         a = 1/0
+#     except Exception as e:
+#         logging.info("Dividing by zero")
+#         raise CustomException(e,sys) 

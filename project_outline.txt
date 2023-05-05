@@ -36,3 +36,7 @@ Step 2 - create a pipeline directory. In that have training and testing pipeline
 Step 3 - Create 3 more files, utils.py (for writing generic functions that are used everywhere), exception.py (for exception handling), and logger.py (for data logging)
 Step 4 - Write code on exception.py file. 
 
+#### Tutorial 3 - Project Problem Statement, EDA, and Model Training. 
+
+
+
