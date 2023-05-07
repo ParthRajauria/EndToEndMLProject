@@ -13,6 +13,9 @@ Topics to Cover
 CI/CD Pipelines - Github Actions
 Deployment - AWS
 
+############################ What Did I Learn ########################
+Point 1 - How to create a modular code design and how to design ml workflow.
+
 
 
 ######## Steps in each Tutorial    #########
@@ -38,5 +41,9 @@ Step 4 - Write code on exception.py file.
 
 #### Tutorial 3 - Project Problem Statement, EDA, and Model Training. 
 
+Step 1 - Create repository notebook.
+Step 2 - Copy data and EDA notebooks and Model Training notebook from krish naik repository to this repo. 
+Step 3 - Execute EDA notebook one by one.
 
-
+### Tutorial 4 - Data Ingestion implementation line by line.
+Step 1 - Work on the data_ingestion.py file present inside src/components directory. Include data ingestion pipeline with proper logs.
