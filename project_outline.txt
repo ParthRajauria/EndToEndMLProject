@@ -48,8 +48,13 @@ Step 3 - Execute EDA notebook one by one.
 ### Tutorial 4 - Data Ingestion implementation line by line.
 Step 1 - Work on the data_ingestion.py file present inside src/components directory. Include data ingestion pipeline with proper logs.
 
-
 ### Tutorial 5 - Data Transformation implementation using pipeline.
 Step 1 - Add the code in data_transformation.py file.
 Step 2 - Add the code of saving object in utlis.py
 Step 3 - Add the code of calling data_transformation in data_ingestion.py file.
+
+### Tutorial 6 - Model Training and Model Evaluating Component
+Step 1 - Add the code in model_trainer.py
+Step 2 - Add the required function in utils.py
+Step 3 - Add the required code in data_ingestion.py
+
