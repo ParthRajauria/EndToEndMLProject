@@ -1,3 +1,4 @@
 Questions and Answers
 
 Q1 - What is the use of writing  -e . in requirements.txt?
+Q2 - Why are we using @dataclass decorator?
