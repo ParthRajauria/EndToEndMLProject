@@ -15,6 +15,20 @@ Deployment - AWS
 
 ############################ What Did I Learn ########################
 Point 1 - How to create a modular code design and how to design ml workflow.
+Point 2 - How to commit files on github using vs code and terminal.
+Point 3 - How to train models using functions.
+Point 4 - How to make data ingestion and data transformation pipelines.
+
+
+######################### Steps To Commit file in github from vs code ########
+Step 1 - First connect to your github repository through vs code.
+Step 2 - After modifying the files type git status in terminal to check the changes in your repository.
+Step 3 - Then type git add . to add tall the files in the current repository.
+Step 4 - Then type git commit -m "Release Notes" to commit the file in local repository
+Step 5 - Then type git push -u origin main to release the file from local repository (origin) to main repository.
+
+
+
 
 
 
@@ -53,8 +67,11 @@ Step 1 - Add the code in data_transformation.py file.
 Step 2 - Add the code of saving object in utlis.py
 Step 3 - Add the code of calling data_transformation in data_ingestion.py file.
 
-### Tutorial 6 - Model Training and Model Evaluating Component
+### Tutorial 6 & 7 - Model Training and Model Evaluating Component
 Step 1 - Add the code in model_trainer.py
 Step 2 - Add the required function in utils.py
 Step 3 - Add the required code in data_ingestion.py
 
+### Tutorial 8 - Create Prediction pipeline using Flask Web App
+Step 1 - Create app.py file and develop the flask app code for it.
+Step 2 - Add code in prediction_pipeline.py file.
