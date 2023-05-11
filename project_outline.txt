@@ -75,3 +75,9 @@ Step 3 - Add the required code in data_ingestion.py
 ### Tutorial 8 - Create Prediction pipeline using Flask Web App
 Step 1 - Create app.py file and develop the flask app code for it.
 Step 2 - Add code in prediction_pipeline.py file.
+Step 3 - Run the flask app and open the url in web browser 127.0.0.1:5000
+Step 4 - Type all the feature values and observe the model prediction.
+
+### Tutorial 9 - Deployment in AWS Cloud using CI/CD Pipelines.
+We will be using AWS Elastic beanstalk to deploy our code. 
+Step 1 - We need to make two configuration changes - create a .ebextensions folder for elastic beanstalk, then create a python.config file inside it.

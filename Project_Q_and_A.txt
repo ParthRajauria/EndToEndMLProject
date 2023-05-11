@@ -2,3 +2,5 @@ Questions and Answers
 
 Q1 - What is the use of writing  -e . in requirements.txt?
 Q2 - Why are we using @dataclass decorator?
+Q3 - Why we create python.config file?
+A3 - To tell the elastic beanstalk what is the entry point of our application.
