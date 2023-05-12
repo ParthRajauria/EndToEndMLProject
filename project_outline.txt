@@ -18,9 +18,10 @@ Point 1 - How to create a modular code design and how to design ml workflow.
 Point 2 - How to commit files on github using vs code and terminal.
 Point 3 - How to train models using functions.
 Point 4 - How to make data ingestion and data transformation pipelines.
+Point 5 - How to deploy your repository using CI/CD pipelines to AWS and Azure. Although we need to watch the youtube video again to do this deeployment for our project.
 
 
-######################### Steps To Commit file in github from vs code ########
+######################### Steps To Commit file in github from vs code ##############
 Step 1 - First connect to your github repository through vs code.
 Step 2 - After modifying the files type git status in terminal to check the changes in your repository.
 Step 3 - Then type git add . to add tall the files in the current repository.
@@ -28,8 +29,10 @@ Step 4 - Then type git commit -m "Release Notes" to commit the file in local rep
 Step 5 - Then type git push -u origin main to release the file from local repository (origin) to main repository.
 
 
-
-
+########################## Miscellaneous Details #################################
+* We will be using AWS Elastic beanstalk to deploy our code. 
+* We use CodePipeline feature of AWS for Continuous Delivery (CD) pipeline.
+* Idea of GithubActions is that any code which comes to the github repo should be automatically updated in our deployment server.
 
 
 ######## Steps in each Tutorial    #########
@@ -79,5 +82,8 @@ Step 3 - Run the flask app and open the url in web browser 127.0.0.1:5000
 Step 4 - Type all the feature values and observe the model prediction.
 
 ### Tutorial 9 - Deployment in AWS Cloud using CI/CD Pipelines.
-We will be using AWS Elastic beanstalk to deploy our code. 
 Step 1 - We need to make two configuration changes - create a .ebextensions folder for elastic beanstalk, then create a python.config file inside it.
+Note:- We use CodePipeline feature of AWS for Continuous Delivery (CD) pipeline.
+
+### Tutorial 10 - Deployment of ML Applications in Azure Cloud using Github Actions
+Step 1 - 
