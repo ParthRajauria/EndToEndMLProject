@@ -33,6 +33,8 @@ Step 5 - Then type git push -u origin main to release the file from local reposi
 * We will be using AWS Elastic beanstalk to deploy our code. 
 * We use CodePipeline feature of AWS for Continuous Delivery (CD) pipeline.
 * Idea of GithubActions is that any code which comes to the github repo should be automatically updated in our deployment server.
+* To create virtual environment use conda create -p venv python==3.8 -y
+* To activate this environment type conda activate venv
 
 
 ######## Steps in each Tutorial    #########
@@ -86,4 +88,4 @@ Step 1 - We need to make two configuration changes - create a .ebextensions fold
 Note:- We use CodePipeline feature of AWS for Continuous Delivery (CD) pipeline.
 
 ### Tutorial 10 - Deployment of ML Applications in Azure Cloud using Github Actions
-Step 1 - 
+Step 1 - Make account in Azue and follow the steps mentioned in this video:- https://www.youtube.com/watch?v=SkzmbeYCtiU&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=11
